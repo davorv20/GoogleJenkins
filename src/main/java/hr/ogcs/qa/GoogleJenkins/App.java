@@ -1,6 +1,7 @@
 package hr.ogcs.qa.GoogleJenkins;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
@@ -18,16 +19,19 @@ public class App extends GoogleTest
 	public void openGoogle() throws InterruptedException {
 		System.out.println("Test start with entering web address");
 		driver.get("https://www.google.hr/");
-		Thread.sleep(50);
+		System.out.print("Driver get \n");
+
 	}
 
-	@Test
 	@Step("Search content on google")
 	@Description("Search some stuff on net")
-	public void searchStiff() {
+	public void searchStiff() throws InterruptedException {
 		System.out.println("Enter and search");
-		WebElement webelement = driver.findElement(By.name("q"));
-		webelement.sendKeys("Nase Djakovo");
+		WebElement element = driver.findElement(By.className("gLFyf gsfi"));
+		System.out.print("Search clicked \n");
+		Thread.sleep(50);
+		element.sendKeys("Nase Djakovo");
+		element.submit();
     
 	}
 	
