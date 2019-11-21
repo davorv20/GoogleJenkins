@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-20T13:00:29Z" name="Suite" finished-at="2019-11-20T13:00:47Z" duration-ms="17704">
+  <suite started-at="2019-11-21T12:08:15Z" name="Suite" finished-at="2019-11-21T12:09:25Z" duration-ms="70049">
     <groups>
     </groups>
-    <test started-at="2019-11-20T13:00:29Z" name="Test" finished-at="2019-11-20T13:00:47Z" duration-ms="17704">
-      <class name="hr.ogcs.qa.GoogleJenkins.App">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:hr.ogcs.qa.GoogleJenkins.App@1948ea69]" started-at="2019-11-20T13:00:29Z" name="beforeMethod" finished-at="2019-11-20T13:00:40Z" duration-ms="11132" status="PASS">
+    <test started-at="2019-11-21T12:08:15Z" name="Test" finished-at="2019-11-21T12:09:25Z" duration-ms="70049">
+      <class name="testcases.App">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.App@61e45f87]" started-at="2019-11-21T12:08:15Z" name="beforeMethod" finished-at="2019-11-21T12:08:27Z" duration-ms="11795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="openGoogle()[pri:0, instance:hr.ogcs.qa.GoogleJenkins.App@1948ea69]" started-at="2019-11-20T13:00:41Z" name="openGoogle" finished-at="2019-11-20T13:00:42Z" duration-ms="1399" status="PASS">
+        <test-method signature="openGoogle()[pri:0, instance:testcases.App@61e45f87]" started-at="2019-11-21T12:08:28Z" name="openGoogle" finished-at="2019-11-21T12:08:49Z" duration-ms="21638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openGoogle -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:hr.ogcs.qa.GoogleJenkins.App@1948ea69]" started-at="2019-11-20T13:00:42Z" name="afterMethod" finished-at="2019-11-20T13:00:47Z" duration-ms="4822" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.App@61e45f87]" started-at="2019-11-21T12:08:49Z" name="afterMethod" finished-at="2019-11-21T12:08:50Z" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- hr.ogcs.qa.GoogleJenkins.App -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.App@61e45f87]" started-at="2019-11-21T12:08:50Z" name="beforeMethod" finished-at="2019-11-21T12:08:59Z" duration-ms="9365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchStiff()[pri:0, instance:testcases.App@61e45f87]" started-at="2019-11-21T12:08:59Z" name="searchStiff" finished-at="2019-11-21T12:09:24Z" duration-ms="25082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchStiff -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.App@61e45f87]" started-at="2019-11-21T12:09:24Z" name="afterMethod" finished-at="2019-11-21T12:09:25Z" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.App -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

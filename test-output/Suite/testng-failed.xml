@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="hr.ogcs.qa.GoogleJenkins.App">
+      <class name="testcases.App">
         <methods>
-          <include name="searchStiff"/>
           <include name="afterMethod"/>
+          <include name="searchStiff"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- hr.ogcs.qa.GoogleJenkins.App -->
+      </class> <!-- testcases.App -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
