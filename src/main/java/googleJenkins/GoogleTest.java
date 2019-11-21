@@ -1,4 +1,4 @@
-package hr.ogcs.qa.GoogleJenkins;
+package googleJenkins;
 
 import java.util.concurrent.TimeUnit;
 

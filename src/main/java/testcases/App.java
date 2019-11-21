@@ -16,7 +16,7 @@ import io.qameta.allure.Story;
 
 import org.testng.annotations.Test;
 
-import hr.ogcs.qa.GoogleJenkins.GoogleTest;
+import googleJenkins.GoogleTest;
 /**
  * Hello world!
  *
