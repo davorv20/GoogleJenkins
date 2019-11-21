@@ -15,7 +15,6 @@ import org.testng.annotations.Test;
 public class App extends GoogleTest 
 {
 
-	@Test
 	@Step("Enter into web page")
 	@Description("Test Description: Enter into google.hr ")
 	@Story("Story 1")
