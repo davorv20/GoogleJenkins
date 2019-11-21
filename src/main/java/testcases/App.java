@@ -41,7 +41,7 @@ public class App extends GoogleTest
 	@Description("Search some stuff on net")
 	@Story("Story 2")
 	@Severity(SeverityLevel.TRIVIAL)
-	public void searchStiff() throws InterruptedException {
+	public void searchNaseDjakovo() throws InterruptedException {
 		System.out.println("Enter and search");
 		driver.get("https://www.google.hr/");
 		System.out.print("Driver get \n");
@@ -65,4 +65,19 @@ public class App extends GoogleTest
     
 	}
 	
+	@Test
+	@Step("Open dnevnik.hr")
+	@Description("Search some stuff on dnevnik")
+	@Story("Story 3")
+	@Severity(SeverityLevel.TRIVIAL)
+	public void openPageDnevnik() throws InterruptedException {
+		System.out.println("Enter and search");
+		driver.get("https://www.dnevnik.hr/");
+		System.out.print("Driver get \n");
+		//WebElement element = driver.findElement(By.linkText("Vijesti"));
+		//element.click();
+		System.out.print("Search clicked \n");
+		//Thread.sleep(50);
+    
+	}
 }

@@ -6,8 +6,8 @@
       <class name="testcases.App">
         <methods>
           <include name="afterMethod"/>
-          <include name="searchStiff"/>
           <include name="beforeMethod"/>
+          <include name="openPageDnevnik"/>
         </methods>
       </class> <!-- testcases.App -->
     </classes>
